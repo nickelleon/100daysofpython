@@ -3,15 +3,17 @@ https://www.w3resource.com/python-exercises/puzzles/index.php
 
 
 1. Write a Python program to find a list of integers with exactly two occurrences of nineteen and at least three occurrences of five. Return True otherwise False.
+"""
 Input: [19, 19, 15, 5, 3, 5, 5, 2]
 Output: True
 Input: [19, 15, 15, 5, 3, 3, 5, 2]
 Output: False
 Input: [19, 19, 5, 5, 5, 5, 5]
 Output: True
-
+"""
 
 2. Write a Python program that accepts a list of integers and calculates the length and the fifth element. Return true if the length of the list is 8 and the fifth element occurs thrice in the said list.
+"""
 Input: [19, 19, 15, 5, 5, 5, 1, 2]
 Output: True
 Input: [19, 15, 5, 7, 5, 5, 2]
@@ -20,9 +22,10 @@ Input: [11, 12, 14, 13, 14, 13, 15, 14]
 Output: True
 Input: [19, 15, 11, 7, 5, 6, 2]
 Output: False
-
+"""
 
 3. Write a Python program that accepts an integer and determines whether it is greater than 4^4 and which is 4 mod 34.
+"""
 Input: 922
 Output: True
 Input: 914
@@ -31,9 +34,10 @@ Input: 854
 Output: True
 Input: 854
 Output: True
-
+"""
 
 4. We are making n stone piles! The first pile has n stones. If n is even, then all piles have an even number of stones. If n is odd, all piles have an odd number of stones. Each pile must more stones than the previous pile but as few as possible. Write a Python program to find the number of stones in each pile.
+"""
 Input: 2
 Output: [2, 4]
 Input: 10
@@ -42,9 +46,10 @@ Input: 3
 Output: [3, 5, 7]
 Input: 17
 Output: [17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49]
-
+"""
 
 5. Write a Python program to check the nth-1 string is a proper substring of the nth string in a given list of strings.
+"""
 Input: ['a', 'abb', 'sfs', 'oo', 'de', 'sfde']
 Output: True
 Input: ['a', 'abb', 'sfs', 'oo', 'ee', 'sfde']
@@ -53,231 +58,259 @@ Input: ['a', 'abb', 'sad', 'ooaaesdfe', 'sfsdfde', 'sfsd', 'sfsdf', 'qwrew']
 Output: False
 Input: ['a', 'abb', 'sad', 'ooaaesdfe', 'sfsdfde', 'sfsd', 'sfsdf', 'qwsfsdfrew']
 Output: True
-
+"""
 
 6. Write a Python program to test a list of one hundred integers between 0 and 999, which all differ by ten from one another. Return True otherwise False.
+"""
 Input: [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400, 410, 420, 430, 440, 450, 460, 470, 480, 490, 500, 510, 520, 530, 540, 550, 560, 570, 580, 590, 600, 610, 620, 630, 640, 650, 660, 670, 680, 690, 700, 710, 720, 730, 740, 750, 760, 770, 780, 790, 800, 810, 820, 830, 840, 850, 860, 870, 880, 890, 900, 910, 920, 930, 940, 950, 960, 970, 980, 990]
 Output: True
 Input: [0, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400, 420, 440, 460, 480, 500, 520, 540, 560, 580, 600, 620, 640, 660, 680, 700, 720, 740, 760, 780, 800, 820, 840, 860, 880, 900, 920, 940, 960, 980]
 Output: False
-
+"""
 
 7. Write a  Python program to check a given list of integers where the sum of the first i integers is i.
+"""
 Input: [0, 1, 2, 3, 4, 5]
 Output: False
 Input: [1, 1, 1, 1, 1, 1]
 Output: True
 Input: [2, 2, 2, 2, 2]
 Output: False
-
+"""
 
 8. Write a Python program to split a string of words separated by commas and spaces into two lists, words and separators.
+"""
 Input: W3resource Python, Exercises.
 Output: [['W3resource', 'Python', 'Exercises.'], [' ', ', ']]
 Input: The dance, held in the school gym, ended at midnight.
 Output: [['The', 'dance', 'held', 'in', 'the', 'school', 'gym', 'ended', 'at', 'midnight.'], [' ', ', ', ' ', ' ', ' ', ' ', ', ', ' ', ' ']]
 Input: The colors in my studyroom are blue, green, and yellow.
 Output: [['The', 'colors', 'in', 'my', 'studyroom', 'are', 'blue', 'green', 'and', 'yellow.'], [' ', ' ', ' ', ' ', ' ', ' ', ', ', ', ', ' ']]
-
+"""
 
 9. Write a Python program to find a list of integers containing exactly four distinct values, such that no integer repeats twice consecutively among the first twenty entries.
+"""
 Input: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4]
 Output: True
 Input: [1, 2, 3, 3, 1, 2, 3, 3, 1, 2, 3, 3, 1, 2, 3, 3]
 Output: False
 Input: [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]
 Output: False
-
+"""
 
 10. Given a string consisting of whitespace and groups of matched parentheses, write a Python program to split it into groups of perfectly matched parentheses without any whitespace.
+"""
 Input: ( ()) ((()()())) (()) ()
 Output: ['(())', '((()()()))', '(())', '()']
 Input: () (( ( )() ( )) ) ( ())
 Output: ['()', '((()()()))', '(())']
-
+"""
 
 11. Write a Python program to find the indexes of numbers in a given list below a given threshold.
-Original list:
-[0, 12, 45, 3, 4923, 322, 105, 29, 15, 39, 55]
+"""
+Original list: [0, 12, 45, 3, 4923, 322, 105, 29, 15, 39, 55]
 Threshold: 100
 Check the indexes of numbers of the said list below the given threshold:
 [0, 1, 2, 3, 7, 8, 9, 10]
-Original list:
-[0, 12, 4, 3, 49, 9, 1, 5, 3]
+
+Original list: [0, 12, 4, 3, 49, 9, 1, 5, 3]
 Threshold: 10
 Check the indexes of numbers of the said list below the given threshold:
 [0, 2, 3, 5, 6, 7, 8]
-
+"""
 
 12. Write a Python program to check whether the given strings are palindromes or not. Return True otherwise False.
+"""
 Input: ['palindrome', 'madamimadam', '', 'foo', 'eyes']
 Output: [False, True, True, False, False]
-
+"""
 
 13. Write a Python program to find strings in a given list starting with a given prefix.
+"""
 Input: [( ca,('cat', 'car', 'fear', 'center'))]
 Output: ['cat', 'car']
 Input: [(do,('cat', 'dog', 'shatter', 'donut', 'at', 'todo'))]
 Output: ['dog', 'donut']
-
+"""
 
 14. Write a Python program to find the length of a given list of non-empty strings.
+"""
 Input: ['cat', 'car', 'fear', 'center']
 Output: [3, 3, 4, 6]
 Input: ['cat', 'dog', 'shatter', 'donut', 'at', 'todo', '']
 Output: [3, 3, 7, 5, 2, 4, 0]
-
+"""
 
 15. Write a Python program to find the longest string in a given list of strings.
+"""
 Input: ['cat', 'car', 'fear', 'center']
 Output: center
 Input: ['cat', 'dog', 'shatter', 'donut', 'at', 'todo', '']
 Output: shatter
-
+"""
 
 16. Write a  Python program to find strings in a given list containing a given substring.
+"""
 Input: [(ca,('cat', 'car', 'fear', 'center'))]
 Output: ['cat', 'car']
 Input: [(o,('cat', 'dog', 'shatter', 'donut', 'at', 'todo', ''))]
 Output: ['dog', 'donut', 'todo']
 Input: [(oe,('cat', 'dog', 'shatter', 'donut', 'at', 'todo', ''))]
 Output: []
-
+"""
 
 17. Write a Python program to create a string consisting of non-negative integers up to n inclusive.
+"""
 Input: 4
 Output: 0 1 2 3 4
 Input: 15
 Output: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
-
+"""
 
 18. An irregular/uneven matrix, or ragged matrix, is a matrix that has a different number of elements in each row. Ragged matrices are not used in linear algebra, since standard matrix transformations cannot be performed on them, but they are useful as arrays in computing.
 Write a Python program to find the indices of all occurrences of target in the uneven matrix.
+"""
 Input: [([1, 3, 2, 32, 19], [19, 2, 48, 19], [], [9, 35, 4], [3, 19]),19]
 Output: [[0, 4], [1, 0], [1, 3], [4, 1]]
 Input: [([1, 2, 3, 2], [], [7, 9, 2, 1, 4]),2]
 Output: [[0, 1], [0, 3], [2, 2]]
-
+"""
 
 19. Write a Python program to split a given string (s) into strings if there is a space in s, otherwise split on commas if there is a comma, otherwise return the list of lowercase letters in odd order (order of a = 0, b = 1, etc.).
+"""
 Input: a b c d
-Split the said string into strings if there is a space in the string,
-otherwise split on commas if there is a comma,
+Split the said string into strings if there is a space in the string, otherwise split on commas if there is a comma,
 Output: ['a', 'b', 'c', 'd']
+
 Input: a,b,c,d
-Split the said string into strings if there is a space in the string,
-otherwise split on commas if there is a comma,
+Split the said string into strings if there is a space in the string, otherwise split on commas if there is a comma,
 Output: ['a', 'b', 'c', 'd']
+
 Input: abcd
 Split the said string into strings if there is a space in the string,
 otherwise split on commas if there is a comma,
 Output: ['b', 'd']
-
+"""
 
 20. Write a Python program to determine the direction ('increasing' or 'decreasing') of monotonic sequence numbers.
+"""
 Input: [1, 2, 3, 4, 5, 6]
 Output: Increasing.
 Input: [6, 5, 4, 3, 2, 1]
 Output: Decreasing.
 Input: [19, 19, 5, 5, 5, 5, 5]
 Output: Not a monotonic sequence!
-
+"""
 
 21. Write a Python program to check, for each string in a given list, whether the last character is an isolated letter or not. Return True otherwise False.
+"""
 Input: ['cat', 'car', 'fear', 'center']
 Output: [False, False, False, False]
 Input: ['ca t', 'car', 'fea r', 'cente r']
 Output: [True, False, True, True]
-
+"""
 
 22. Write a Python program to compute the sum of the ASCII values of the upper-case characters in a given string.
+"""
 Input:  PytHon ExerciSEs
 Output: 373
 Input: JavaScript
 Output: 157
-
+"""
 
 23. Write a Python program to find the indices at which the numbers in the list drop.
 NOTE: You can detect multiple drops just by checking if nums[i] < nums[i-1]
+"""
 Input: [0, -1, 3, 8, 5, 9, 8, 14, 2, 4, 3, -10, 10, 17, 41, 22, -4, -4, -15, 0]
 Output: [1, 4, 6, 8, 10, 11, 15, 16, 18]
 Input: [6, 5, 4, 3, 2, 1]
 Output: [1, 2, 3, 4, 5]
 Input: [1, 19, 5, 15, 5, 25, 5]
 Output: [0, 2, 4, 6]
-
+"""
 
 24. Write a  Python program to create a list whose ith element is the maximum of the first i elements from an input list.
+"""
 Input: [0, -1, 3, 8, 5, 9, 8, 14, 2, 4, 3, -10, 10, 17, 41, 22, -4, -4, -15, 0]
 Output: [0, 0, 3, 8, 8, 9, 9, 14, 14, 14, 14, 14, 14, 17, 41, 41, 41, 41, 41, 41]
 Input: [6, 5, 4, 3, 2, 1]
 Output: [6, 6, 6, 6, 6, 6]
 Input: [1, 19, 5, 15, 5, 25, 5]
 Output: [1, 19, 19, 19, 19, 25, 25]
-
+"""
 
 25. Write a Python program to find the XOR of two given strings interpreted as binary numbers.
+"""
 Input: ['0001', '1011']
 Output: 0b1010
 Input: ['100011101100001', '100101100101110']
 Output: 0b110001001111
-
+"""
 
 26. Write a Python program to find the largest number where commas or periods are decimal points.
+"""
 Input: ['100', '102,1', '101.1']
 Output: 102.1
-
+"""
 
 27. Write a Python program to find x that minimizes the mean squared deviation from a given list of numbers.
+"""
 Input: [4, -5, 17, -9, 14, 108, -9]
 Output: 17.142857142857142
 Input: [12, -2, 14, 3, -15, 10, -45, 3, 30]
 Output: 1.1111111111111112
-
+"""
 
 28. Write a Python program to select a string from a given list of strings with the most unique characters.
+"""
 Input: ['cat', 'catatatatctsa', 'abcdefhijklmnop', '124259239185125', '', 'foo', 'unique']
 Output: abcdefhijklmnop
 Input: ['Green', 'Red', 'Orange', 'Yellow', '', 'White']
 Output: Orange
-
+"""
 
 29. Write a Python program to find the indices of two numbers that sum to 0 in a given list of numbers.
+"""
 Input: [1, -4, 6, 7, 4]
 Output: [4, 1]
 Input: [1232, -20352, 12547, 12440, 741, 341, 525, 20352, 91, 20]
 Output: [1, 7]
-
+"""
 
 30. Write a Python program to find a list of strings that have fewer total characters (including repetitions).
+"""
 Input: [['this', 'list', 'is', 'narrow'], ['I', 'am', 'shorter but wider']]
 Output: ['this', 'list', 'is', 'narrow']
 Input: [['Red', 'Black', 'Pink'], ['Green', 'Red', 'White']]
 Output: ['Red', 'Black', 'Pink']
-
+"""
 
 31. Write a Python program to find the coordinates of a triangle with given side lengths.
+"""
 Input: [3, 4, 5]
 Output: [[0.0, 0.0], [3, 0.0], [3.0, 4.0]]
 Input: [5, 6, 7]
 Output: [[0.0, 0.0], [5, 0.0], [3.8, 5.878775382679628]]
-
+"""
 
 32. Write a Python program to rescale and shift numbers in a given list, so that they cover the range [0, 1].
+"""
 Input: [18.5, 17.0, 18.0, 19.0, 18.0]
 Output: [0.75, 0.0, 0.5, 1.0, 0.5]
 Input: [13.0, 17.0, 17.0, 15.5, 2.94]
 Output: [0.7155049786628734, 1.0, 1.0, 0.8933143669985776, 0.0]
-
+"""
 
 33. Write a Python program to find the positions of all uppercase vowels (not counting Y) in even indices of a given string.
+"""
 Input: w3rEsOUrcE
 Output: [6]
 Input: AEIOUYW
 Output: [0, 2, 4]
-
+"""
 
 34. Write a Python program to find the sum of the numbers in a given list among the first k with more than 2 digits.
+"""
 Input: [4, 5, 17, 9, 14, 108, -9, 12, 76]
 Value of K: 4
 Output: 0
@@ -290,18 +323,20 @@ Output: 331
 Input: [114, 215, -117, 119, 14, 108, -9, 12, 76]
 Value of K: 1
 Output: 114
-
+"""
 
 35. Write a  Python program to compute the product of the odd digits in a given number, or 0 if there aren't any.
+"""
 Input: 123456789
 Output: 945
 Input: 2468
 Output: 0
 Input: 13579
 Output: 945
-
+"""
 
 36. Write a Python program to find the largest k numbers from a given list of numbers.
+"""
 Input: [1, 2, 3, 4, 5, 5, 3, 6, 2]
 Output: [6]
 Input: [1, 2, 3, 4, 5, 5, 3, 6, 2]
@@ -312,9 +347,10 @@ Input: [1, 2, 3, 4, 5, 5, 3, 6, 2]
 Output: [6, 5, 5, 4]
 Input: [1, 2, 3, 4, 5, 5, 3, 6, 2]
 Output: [6, 5, 5, 4, 3]
-
+"""
 
 37. Write a Python program to find the largest integer divisor of a number n that is less than n.
+"""
 Input: 18
 Output: 9
 Input: 100
@@ -327,23 +363,26 @@ Input: 1000
 Output: 500
 Input: 6500
 Output: 3250
-
+"""
 
 38. Write a Python program to sort the numbers in a given list by the sum of their digits.
+"""
 Input: [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 Output: [10, 11, 20, 12, 13, 14, 15, 16, 17, 18, 19]
 Input: [23, 2, 9, 34, 8, 9, 10, 74]
 Output: [10, 2, 23, 34, 8, 9, 9, 74]
-
+"""
 
 39. Write a Python program to determine which triples sum to zero from a given list of lists.
+"""
 Input: [[1343532, -2920635, 332], [-27, 18, 9], [4, 0, -4], [2, 2, 2], [-20, 16, 4]]
 Output: [False, True, True, False, True]
 Input: [[1, 2, -3], [-4, 0, 4], [0, 1, -5], [1, 1, 1], [-2, 4, -1]]
 Output: [True, True, False, False, False]
-
+"""
 
 40. Write a Python program to find strings that, when case is flipped, give a target where vowels are replaced by characters two later.
+"""
 Input: Python
 Output: pYTHQN
 Input: aeiou
@@ -352,27 +391,30 @@ Input: Hello, world!
 Output: hGLLQ, WQRLD!
 Input: AEIOU
 Output: cgkqw
-
+"""
 
 41. Write a Python program to sort numbers based on strings.
+"""
 Input: six one four one two three
 Output: one two three four six
 Input: six one four three two nine eight
 Output: one two three four six eight nine
 Input: nine eight seven six five four three two one
 Output: one two three four five six seven eight nine
-
+"""
 
 42. Write a Python program to find the set of distinct characters in a given string, ignoring case.
+"""
 Input: HELLO
 Output: ['h', 'o', 'l', 'e']
 Input: HelLo
 Output: ['h', 'o', 'l', 'e']
 Input: Ignoring case
 Output: ['s', 'n', 'c', 'o', 'e', 'i', 'r', 'g', 'a', ' ']
-
+"""
 
 43. Write a Python program to find all words in a given string with n consonants.
+"""
 Input: this is our time
 Output: Number of consonants: 3
 Words in the said string with 3 consonants:
@@ -383,18 +425,20 @@ Words in the said string with 2 consonants:
 Number of consonants: 1
 Words in the said string with 1 consonants:
 ['is', 'our']
-
+"""
 
 44. Write a  Python program to find which characters of a hexadecimal number correspond to prime numbers.
+"""
 Input: 123ABCD
 Output: [False, True, True, False, True, False, True]
 Input: 123456
 Output: [False, True, True, False, True, False]
 Input: FACE
 Output: [False, False, False, False]
-
+"""
 
 45. Write a Python program to find all even palindromes up to n.
+"""
 Output: Even palindromes up to 50 -
 [0, 2, 4, 6, 8, 22, 44]
 Even palindromes up to 100 -
@@ -403,9 +447,10 @@ Even palindromes up to 500 -
 [0, 2, 4, 6, 8, 22, 44, 66, 88, 202, 212, 222, 232, 242, 252, 262, 272, 282, 292, 404, 414, 424, 434, 444, 454, 464, 474, 484, 494]
 Even palindromes up to 2000 -
 [0, 2, 4, 6, 8, 22, 44, 66, 88, 202, 212, 222, 232, 242, 252, 262, 272, 282, 292, 404, 414, 424, 434, 444, 454, 464, 474, 484, 494, 606, 616, 626, 636, 646, 656, 666, 676, 686, 696, 808, 818, 828, 838, 848, 858, 868, 878, 888, 898]
-
+"""
 
 46. Given an array of numbers representing a branch on a binary tree, write a Python program to find the minimum even value and its index. In the case of a tie, return the smallest index. If there are no even numbers, the answer is [].
+"""
 Input: [1, 9, 4, 6, 10, 11, 14, 8]
 Output: Minimum even value and its index of the said array of numbers:
 [4, 2]
@@ -415,18 +460,20 @@ Output: Minimum even value and its index of the said array of numbers:
 Input: [1, 7, 7, 5, 9]
 Output: Minimum even value and its index of the said array of numbers:
 []
-
+"""
 
 47. Write a Python program to filter for numbers in a given list whose sum of digits is > 0, where the first digit can be negative.
+"""
 Input: [11, -6, -103, -200]
 Output: [11, -103]
 Input: [1, 7, -4, 4, -9, 2]
 Output: [1, 7, 4, 2]
 Input: [10, -11, -71, -13, 14, -32]
 Output: [10, -13, 14]
-
+"""
 
 48. Write a Python program to find the indices of two entries that show that the list is not in increasing order. If there are no violations (they are increasing), return an empty list.
+"""
 Input: [1, 2, 3, 0, 4, 5, 6]
 Output: [2, 3]
 Input: [1, 2, 3, 4, 5, 6]
@@ -435,18 +482,20 @@ Input: [1, 2, 3, 4, 6, 5, 7]
 Output: [4, 5]
 Input: [-3, -2, -3, 0, 2, 3, 4]
 Output: [1, 2]
-
+"""
 
 49. Write a Python program to find the h-index, the largest positive number h such that h occurs in the sequence at least h times. If there is no such positive number return h = -1.
+"""
 Input: [1, 2, 2, 3, 3, 4, 4, 4, 4]
 Output: 4
 Input: [1, 2, 2, 3, 4, 5, 6]
 Output: 2
 Input: [3, 1, 4, 17, 5, 17, 2, 1, 41, 32, 2, 5, 5, 5, 5]
 Output: 5
-
+"""
 
 50. Write a  Python program to find even-length words from a given list of words and sort them by length.
+"""
 Original list of words:
 ['Red', 'Black', 'White', 'Green', 'Pink', 'Orange']
 Find the even-length words and sort them by length in the said list of words:
@@ -455,7 +504,7 @@ Original list of words:
 ['The', 'worm', 'ate', 'a', 'bird', 'imagine', 'that', '!', 'Absurd', '!!']
 Find the even-length words and sort them by length in the said list of words:
 ['!!', 'bird', 'that', 'worm', 'Absurd']
-
+"""
 
 51. Write a Python program to find the product of the units digits in the numbers in a given list.
 Input: 10
